@@ -15,6 +15,10 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT' }
   s.homepage         = 'https://github.com/TaoMTX/LLQModuleA'
   s.authors          = 'llq'
-  s.source           = { :git => 'https://github.com/TaoMTX/LLQModuleA', :tag => "#{s.version}" }
-  s.source_files     = 'ModuleA/Classes/**/*'
+  
+  s.swift_version  = '4.0'
+  s.platform  = :ios,'13.0'
+  s.source           = { :git => 'https://github.com/TaoMTX/LLQModuleA.git', :tag => "#{s.version}" }
+  s.source_files     = 'LLQModuleA/Classes/**/*'
 end
+
