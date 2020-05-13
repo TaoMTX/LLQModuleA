@@ -1,0 +1,6 @@
+module LLQModuleA {
+  umbrella header "LLQModuleA-umbrella.h"
+
+  export *
+  module * { export * }
+}

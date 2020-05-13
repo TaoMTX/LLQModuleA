@@ -1,0 +1,16 @@
+PODS:
+  - LLQModuleA (0.1.0)
+
+DEPENDENCIES:
+  - LLQModuleA (from `../`)
+
+EXTERNAL SOURCES:
+  LLQModuleA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLQModuleA: db7163339a7eb1d195ad1f34296fc93477a7f597
+
+PODFILE CHECKSUM: 2da3c07046d5ed1addfcf52efb3e04b1946b72d6
+
+COCOAPODS: 1.9.1

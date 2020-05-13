@@ -1,0 +1,6 @@
+module Pods_LLQModuleA_Example {
+  umbrella header "Pods-LLQModuleA_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
